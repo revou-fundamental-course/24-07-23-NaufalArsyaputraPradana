@@ -1,0 +1,444 @@
+/* CSS Style */
+* {
+    box-sizing: border-box;
+}
+
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Nav */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo img {
+    width: 50px;
+}
+
+/* Navbar */
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+    color: #ff6600;
+}
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+body.fixed-navbar-padding {
+    padding-top: 60px;
+}
+
+/* Section */
+section {
+    padding: 20px;
+    margin: 50px;
+}
+
+/* title */
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.title p {
+    color: #888;
+    margin-bottom: 30px;
+}
+
+/* Contact */
+.contact {
+    background-color: #f5f5f5;
+    max-width: 333px;
+    float: right;
+    margin: 40px;
+    padding: 20px;
+}
+
+.contact h3 {
+    text-align: center;
+    margin: 40px;
+}
+
+.contact p {
+    text-align: center;
+    color: #888;
+    margin-bottom: 80px;
+}
+
+/* Contact Form */
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.error input,
+.error select {
+    border-color: #ff0000;
+}
+
+.error small {
+    visibility: visible;
+}
+
+.success input,
+.success select {
+    border-color: #00ff00;
+}
+
+.success small {
+    visibility: hidden;
+}
+
+.error small,
+.success small {
+    color: #ff0000;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-bottom: 10px;
+}
+
+.contact input,
+.contact select {
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.contact input[type="submit"] {
+    font-size: 16px;
+    padding: 10px;
+    margin: 40px;
+    background-color: #ff6600;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #e55c00;
+}
+
+/* Banner Image Slide Show */
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    padding-top: 40px;
+    max-width: 700px;
+    position: relative;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Deskripsi */
+.deskripsi {
+    margin: 30px;
+}
+
+/* Deskripsi */
+.deskripsi p {
+    color: #888;
+}
+
+/* Customer */
+.customer {
+    float: left;
+}
+
+.customer img {
+    margin: 20px;
+    width: 50px;
+}
+
+.deskripsi-customer h4 {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.deskripsi-customer p {
+    text-align: left;
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.garis {
+    display: flex;
+    justify-content: center;
+}
+
+.garis img {
+    margin-top: -25px;
+    height: 100px;
+    width: 200px;
+}
+
+/* Judul Benefit */
+.judul {
+    margin: 10px;
+}
+
+.judul p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Isi Benefit */
+.chip {
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.chip img {
+    float: left;
+    margin: 0 20px 0 -15px;
+    height: 50px;
+    width: 50px;
+}
+
+/* Title Tour */
+.title-tour {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title-tour h2 {
+    font-size: 32px;
+}
+
+/* Content Tour */
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article img {
+    margin-top: 30px;
+    float: left;
+    height: 30px;
+    width: 30px;
+}
+
+/* Tour */
+.tour {
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 40px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.tour h4 {
+    font-size: 22px;
+}
+
+.tour p {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* Call */
+.judul-call {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.judul-call h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 38px;
+    margin-bottom: 80px;
+}
+
+.judul-call p {
+    font-style: italic;
+    font-size: 18px;
+    color: #888;
+    margin: 40px;
+}
+
+/* Button Call */
+.tengah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+button:hover {
+    background-color: #e55c00;
+}
+
+/* The Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal .contact {
+    float: none;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+footer h4 {
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.footer-index {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Responsive Design */
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .image-slider img {
+        max-width: 100%;
+    }
+
+    .contact {
+        max-width: 100%;
+        float: none;
+        margin-left: 0;
+    }
+
+    article {
+        flex-direction: column;
+    }
+
+    .tour {
+        width: 100%;
+    }
+}

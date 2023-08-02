@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Course - Travel Page</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700|Poppins:300,400,500,600,700"
+      rel="stylesheet"
+    />
+    <!-- Link Icon -->
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon" />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <!-- Nav -->
+      <nav id="nav">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/logo.png" alt="Logo travel Agent" />
+          </a>
+        </div>
+        <!-- Navbar -->
+        <div class="navbar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#package">Our Package</a></li>
+            <li><a href="#call">Call Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Page 1 -->
+      <section id="home">
+        <!-- Title -->
+        <div class="title">
+          <h1><b>Your Trusted Travel Agent's</b></h1>
+          <p>Your happiness is our happiness</p>
+        </div>
+
+        <!-- Form Contact -->
+        <div class="contact">
+          <h3><b>Contact Us</b></h3>
+          <p>
+            Sales will contact you within 24 hours after we receive your data
+          </p>
+          <form id="contact-form">
+            <label for="name"><b>Your Name:</b></label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="First and last name"
+              required
+            />
+            <label for="email"><b>Email Address:</b></label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="example@email.com"
+              required
+            />
+            <label for="interest"><b>What are you interested in?</b></label>
+            <select name="interest" id="interest" required>
+              <option value="">Select an option</option>
+              <option value="Bali">Bali</option>
+              <option value="Japan">Japan</option>
+              <option value="Singapore">Singapore</option>
+              <option value="Bandung">Bandung</option>
+              <option value="Surabaya">Surabaya</option>
+              <option value="Third Feature">Third Feature</option>
+            </select>
+            <input type="submit" value="SEND" />
+          </form>
+        </div>
+
+        <!-- Banner Image -->
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="assets/gambar-1.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="assets/gambar-2.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="assets/gambar-3.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="assets/gambar-4.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="assets/gambar-5.jpg" style="width: 100%" />
+          </div>
+        </div>
+
+        <!-- Deskripsi -->
+        <div class="deskripsi">
+          <p><i>"Liburanku Terasa Menyenangkan bersama Travel Agentku."</i></p>
+          <!-- Customer -->
+          <div class="customer">
+            <img src="assets/orang.png" alt="customer" />
+          </div>
+          <div class="deskripsi-customer">
+            <h4><b>Florence Hughes</b></h4>
+            <p><i>Ibu Rumah Tangga, 28</i></p>
+          </div>
+        </div>
+
+        <div class="garis">
+          <img src="assets/garis.png" alt="garis" />
+        </div>
+
+        <!-- Benefit -->
+        <div class="benefit">
+          <!-- Judul Benefit -->
+          <div class="judul">
+            <p>
+              <b
+                >Use this space to provide users with more information about
+                your offer.
+                <br />
+                Consider it a follow-up to your headline and explain
+                <br />
+                the benefits of your service or product</b
+              >
+            </p>
+          </div>
+          <!-- Isi Benefit -->
+          <div class="chip">
+            <img
+              src="assets/number-one.png"
+              alt="Person"
+              width="96"
+              height="96"
+            />
+            Your first feature, written in the form of a benefit statement.
+          </div>
+          <br />
+          <div class="chip">
+            <img
+              src="assets/number-2.png"
+              alt="Person"
+              width="96"
+              height="96"
+            />
+            Your second feature, written in the form of a benefit statement.
+          </div>
+          <br />
+          <div class="chip">
+            <img
+              src="assets/number-3.png"
+              alt="Person"
+              width="96"
+              height="96"
+            />
+            Your third feature written, in the form of a benefit statement.
+          </div>
+        </div>
+      </section>
+
+      <!-- Page 2 -->
+      <div class="title-tour" id="package">
+        <h2>Our Package</h2>
+      </div>
+      <section>
+        <!-- Content Tour -->
+        <article>
+          <!-- Tour 1 -->
+          <img src="assets/tour.png" alt="tour" />
+          <div class="tour">
+            <h4>Bali</h4>
+            <p>
+              Travel and tour in Bali. <br />Visit interesting cultural heritage
+              and cuisine.
+            </p>
+          </div>
+
+          <!-- Tour 2 -->
+          <img src="assets/tour.png" alt="tour" />
+          <div class="tour">
+            <h4>Japan</h4>
+            <p>
+              Travel and tour in Japan. <br />Visit interesting cultural
+              heritage and cuisine.
+            </p>
+          </div>
+
+          <!-- Tour 3 -->
+          <img src="assets/tour.png" alt="tour" />
+          <div class="tour">
+            <h4>Singapore</h4>
+            <p>
+              Travel and tour in Singapore.<br />
+              Visit interesting cultural heritage and cuisine.
+            </p>
+          </div>
+        </article>
+
+        <div class="garis">
+          <img src="assets/garis.png" alt="garis" />
+        </div>
+
+        <article>
+          <!-- Tour 4 -->
+          <img src="assets/tour.png" alt="tour" />
+          <div class="tour">
+            <h4>Bandung</h4>
+            <p>
+              Travel and tour in Bandung. <br />Visit interesting cultural
+              heritage and cuisine.
+            </p>
+          </div>
+
+          <!-- Tour 5 -->
+          <img src="assets/tour.png" alt="tour" />
+          <div class="tour">
+            <h4>Surabaya</h4>
+            <p>
+              Travel and tour in Surabaya. <br />Visit interesting cultural
+              heritage and cuisine.
+            </p>
+          </div>
+
+          <!-- Tour 6 -->
+          <img src="assets/tour.png" alt="tour" />
+          <div class="tour">
+            <h4>Third Feature</h4>
+            <p>
+              The description supports and extends <br />the bullet point above.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <hr />
+
+      <!-- Page 3 -->
+      <section id="call">
+        <!-- Call -->
+        <div class="judul-call">
+          <h1>Your Closing Argument Headline</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+            amet deleniti quisquam culpa maiores. Voluptatibus, iure doloremque
+            labore numquam non veniam nesciunt veritatis deleniti! Unde
+            doloremque reiciendis blanditiis saepe eos inventore hic ut, itaque
+            magni cumque sunt soluta vero, nobis quia sapiente? Perferendis.
+          </p>
+        </div>
+        <!-- Button Call -->
+        <div class="tengah"><button id="myBtn">CALL TO ACTION</button></div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <div class="tengah">
+            <!-- Form Contact -->
+            <div class="contact">
+              <span class="close">&times;</span>
+              <h3><b>Contact Us</b></h3>
+              <p>
+                Sales will contact you within 24 hours after we receive your
+                data
+              </p>
+              <form id="contact-form">
+                <label for="name"><b>Your Name:</b></label>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="First and last name"
+                  required
+                />
+                <label for="email"><b>Email Address:</b></label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="example@email.com"
+                  required
+                />
+                <label for="interest"><b>What are you interested in?</b></label>
+                <select name="interest" id="interest" required>
+                  <option value="">Select an option</option>
+                  <option value="Bali">Bali</option>
+                  <option value="Japan">Japan</option>
+                  <option value="Singapore">Singapore</option>
+                  <option value="Bandung">Bandung</option>
+                  <option value="Surabaya">Surabaya</option>
+                  <option value="Third Feature">Third Feature</option>
+                </select>
+                <input type="submit" value="SEND" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <hr />
+    
+    <!-- Footer -->
+    <footer>
+      <h4>Travel Agent</h4>
+      <div class="footer-index">
+        <p>Terms Of Service</p>
+        <p>Privacy Policy</p>
+      </div>
+      <div class="footer-index">
+        <p>&copy; 2023</p>
+        <p>Travel Agent</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
